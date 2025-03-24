@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enfermería Libros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #0073b1;
+            padding: 15px;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+        }
+        .navbar {
+            background-color: #004a80;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+        .navbar a {
+            padding: 14px 20px;
+            display: block;
+            color: white;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #005a99;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .book {
+            display: inline-block;
+            margin: 15px;
+            width: 200px;
+        }
+        .book img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .footer {
+            background-color: #0073b1;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Libros de Enfermería</div>
+    <div class="navbar">
+        <a href="#">Anatomía</a>
+        <a href="#">Fisiología</a>
+        <a href="#">Farmacología</a>
+        <a href="#">Patología</a>
+        <a href="#">Microbiología</a>
+    </div>
+    <div class="container">
+        <div class="book">
+            <img src="book1.jpg" alt="Libro 1">
+            <p>Manual de Enfermería</p>
+        </div>
+        <div class="book">
+            <img src="book2.jpg" alt="Libro 2">
+            <p>Fundamentos de Enfermería</p>
+        </div>
+        <div class="book">
+            <img src="book3.jpg" alt="Libro 3">
+            <p>Cuidados Intensivos</p>
+        </div>
+    </div>
+    <div class="footer">© 2025 Enfermería Libros</div>
+</body>
+</html>
